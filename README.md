@@ -150,3 +150,10 @@ Addressing the acceptance criteria:
 * Once the app is built on an industry scale and deployed, it will create a lot of job opportunities
 * Every farmer can be considered as an employee of the Hell-Harvest and once connected to the government will be able to receive benefits.
 
+ ### Deployment to Cloud
+ * We have created a LAMPSTACK server in GCP to host the full end-to-end application.
+ * The codes from git are clone to the LAMPSTACK server.
+ * LAMPSTACK will automatically handle the hosting through apache server.
+ * The phpmyadmin handles the database for our webapp.
+ * The LAMPSTACK provide a free instance for phpmyadmin and we need to create database and tables for the webapp to handle the database.
+ * LAMPSTACK instance of Hello-Harvest: http://34.163.84.98/
